@@ -2,322 +2,258 @@ const wordsData = [
   {
     word: "Pareidolia",
     definition: "The tendency to perceive a specific, often meaningful image in a random or ambiguous visual pattern.",
-    usage: "Seeing faces or other patterns in ambiguous images, such as Jesus on toast or the man in the moon."
   },
   {
     word: "Factotum",
     definition: "An employee who does all kinds of work.",
-    usage: "(odd-job man, man friday)"
   },
   {
     word: "Brusque",
     definition: "Using very few words and sounding rude.",
-    usage: "Curt"
   },
   {
     word: "Apocryphal",
     definition: "(of a story or statement) of doubtful authenticity, although widely circulated as being true.",
-    usage: ""
   },
   {
     word: "Garrulous",
     definition: "Excessively talkative, especially on trivial matters.",
-    usage: ""
   },
   {
     word: "Discombobulated",
     definition: "Confused and disconcerted.",
-    usage: ""
   },
   {
     word: "Asymptote",
     definition: "A line that continually approaches a given curve but does not meet it at any finite distance.",
-    usage: ""
   },
   {
     word: "Phlegmatic",
     definition: "(of a person) having an unemotional and stolidly calm disposition.",
-    usage: ""
   },
   {
     word: "Unctuous",
     definition: "Excessively or ingratiatingly flattering; oily.",
-    usage: "Learnt on: The Great British Bake Off"
   },
   {
     word: "Acquiesce",
     definition: "Accept something reluctantly but without protest.",
-    usage: ""
   },
   {
     word: "Conjecture",
     definition: "An opinion or conclusion formed on the basis of incomplete information.",
-    usage: ""
   },
   {
     word: "Taciturn",
     definition: "(of a person) reserved or uncommunicative in speech; saying little.",
-    usage: ""
   },
   {
     word: "Empirical",
     definition: "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
-    usage: ""
   },
   {
     word: "Stultifying",
     definition: "Tending to stifle enthusiasm, initiative, or freedom of action.",
-    usage: ""
   },
   {
     word: "Mottle",
     definition: "Mark with spots or smears of color.",
-    usage: ""
   },
   {
     word: "Equanimity",
     definition: "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
-    usage: "\"she accepted both the good and the bad with equanimity\""
   },
   {
     word: "Indemnify",
     definition: "Compensate someone for loss or harm.",
-    usage: ""
   },
   {
     word: "Recalcitrance",
     definition: "Obstinately defiant of authority or restraint.",
-    usage: ""
   },
   {
     word: "Clairvoyant",
     definition: "Having or exhibiting an ability to perceive events in the future or beyond normal sensory contact.",
-    usage: "noun - a person who claims to have a supernatural ability to perceive events in the future or beyond normal sensory contact."
   },
   {
     word: "Fetid",
     definition: "Smelling extremely unpleasant.",
-    usage: ""
   },
   {
     word: "Tacit",
     definition: "Understood or implied without being stated.",
-    usage: "adjective"
   },
   {
     word: "Elfin",
     definition: "Small and delicate, typically with an attractively mischievous or strange charm.",
-    usage: ""
   },
   {
     word: "Oeuvre",
     definition: "The works of a painter, composer, or author regarded collectively.",
-    usage: ""
   },
   {
     word: "Spire",
     definition: "A tapering conical or pyramidal structure on the top of a building, typically a church tower.",
-    usage: ""
   },
   {
     word: "Altercation",
     definition: "A noisy argument or disagreement, especially in public.",
-    usage: ""
   },
   {
     word: "Filibuster",
     definition: "An action such as a prolonged speech that obstructs progress in a legislative assembly while not technically contravening the required procedures.",
-    usage: ""
   },
   {
     word: "Jauk",
     definition: "To dawdle or waste time.",
-    usage: ""
   },
   {
     word: "Impugn",
     definition: "Dispute the truth, validity, or honesty of (a statement or motive); call into question.",
-    usage: ""
   },
   {
     word: "Mellifluous",
     definition: "(of a voice or words) sweet or musical; pleasant to hear.",
-    usage: ""
   },
   {
     word: "Lackadaisical",
     definition: "Lacking enthusiasm and determination; carelessly lazy.",
-    usage: ""
   },
   {
     word: "Cheugy",
     definition: "Opposite of trendy. once cool, but no more.",
-    usage: "\"Consumer identity is old news when everything is cheap and available, and everyone is buying.\" - Vox, is anything cool anymore"
   },
   {
     word: "Grok",
     definition: "To understand something profoundly and intuitively.",
-    usage: ""
   },
   {
     word: "Discombobulate",
     definition: "Confuse.",
-    usage: ""
   },
   {
     word: "Neologism",
     definition: "A newly coined word or expression.",
-    usage: ""
   },
   {
     word: "Apropos",
     definition: "With reference to; concerning.",
-    usage: ""
   },
   {
     word: "Suffragette",
     definition: "A woman seeking the right to vote through organized protest.",
-    usage: ""
   },
   {
     word: "Seance",
     definition: "A spiritualist meeting to receive spirit communications.",
-    usage: ""
   },
   {
     word: "Moot",
     definition: "Open to question : debatable; subjected to discussion : disputed; deprived of practical significance : made abstract or purely academic.",
-    usage: ""
   },
   {
     word: "Plutocrat",
     definition: "A person whose power derives from their wealth.",
-    usage: ""
   },
   {
     word: "Liminality",
     definition: "Liminal Space is an aesthetic that refers to the feeling of being in a transitional space that has been abandoned - a mall at 4 am or a school hallway in summer, for example. This makes it feel frozen and slightly unsettling.",
-    usage: ""
   },
   {
     word: "Coquettish",
     definition: "Behaving in such a way as to suggest a playful sexual attraction; flirtatious.",
-    usage: ""
   },
   {
     word: "Atonic",
     definition: "Uttered without accent or stress.",
-    usage: ""
   },
   {
     word: "Mensch",
     definition: "A person of integrity and honor.",
-    usage: ""
   },
   {
     word: "Temerity",
     definition: "Audacity.",
-    usage: ""
   },
   {
     word: "Bucolic",
     definition: "Relating to the pleasant aspects of the countryside and country life.",
-    usage: ""
   },
   {
     word: "Buttress",
     definition: "A source of support.",
-    usage: ""
   },
   {
     word: "Redolence",
     definition: "Pungent or agreeable odor.",
-    usage: ""
   },
   {
     word: "Chockablock",
     definition: "Crowded; jammed.",
-    usage: "(british informal)"
   },
   {
     word: "Faugh",
     definition: "Expressing disgust.",
-    usage: ""
   },
   {
     word: "Malaise",
     definition: "A general feeling of discomfort, illness, or uneasiness whose exact cause is difficult to identify.",
-    usage: ""
   },
   {
     word: "Deference",
     definition: "Humble submission and respect.",
-    usage: ""
   },
   {
     word: "Quash",
     definition: "Reject or void, especially by legal procedure.",
-    usage: ""
   },
   {
     word: "Parable",
     definition: "A simple story used to illustrate a moral or spiritual lesson, as told by Jesus in the Gospels.",
-    usage: ""
   },
   {
     word: "Pontificate",
     definition: "Express one's opinions in a way considered annoyingly pompous and dogmatic.",
-    usage: ""
   },
   {
     word: "Belligerent",
     definition: "Hostile and aggressive.",
-    usage: ""
   },
   {
     word: "Odious",
     definition: "Extremely unpleasant; repulsive.",
-    usage: ""
   },
   {
     word: "Impetuous",
     definition: "Moving forcefully or rapidly. acting quickly and without thought.",
-    usage: ""
   },
   {
     word: "Snafu",
     definition: "A confused or chaotic state; a mess.",
-    usage: "verb/adj/noun"
   },
   {
     word: "Shvitzing",
     definition: "Informal way of saying sweating.",
-    usage: ""
   },
   {
     word: "Shindig",
     definition: "A large, lively party, especially one celebrating something.",
-    usage: ""
   },
   {
     word: "Usurious",
     definition: "Usury is the practice of making unethical or immoral monetary loans that unfairly enrich the lender.",
-    usage: ""
   },
   {
     word: "Maudlin",
     definition: "Self-pityingly or tearfully sentimental, often through drunkenness.",
-    usage: ""
   },
   {
     word: "Vamoose",
     definition: "Depart hurriedly.",
-    usage: ""
   },
   {
     word: "Goad",
     definition: "Provoke or annoy (someone) so as to stimulate some action or reaction.",
-    usage: ""
   },
   {
     word: "Lothario",
@@ -347,7 +283,6 @@ const wordsData = [
   {
     word: "Curandero",
     definition: "(in Spain and Latin America) a healer who uses folk remedies.",
-    usage: "Jorge: “As information Architects, our role should be a similar one: helping change mental models through the mindful reframing of semantic distinctions.\""
   },
   {
     word: "Jerry-rig",
@@ -392,7 +327,6 @@ const wordsData = [
   {
     word: "Effulgent",
     definition: "(of a person or their expression) emanating joy or goodness.",
-    usage: "Learnt on: Dave"
   },
   {
     word: "Hoodlum",
