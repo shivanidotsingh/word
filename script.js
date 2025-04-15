@@ -5,10 +5,6 @@ const body = document.body;
 const container = document.querySelector('.container');
 
 const colorCombos = [
-  { bg: "#228DC8", text: "#FC7ED7" },
-  { bg: "#FBA332", text: "#FA6128" },
-  { bg: "#FA6128", text: "#0B690C" },
-  
   { bg: "#CBA0AA", text: "#FAE397" },
   { bg: "#B6CAC0", text: "#C02A1B" },  
   { bg: "#F9F7E8", text: "#62BFAD" },
