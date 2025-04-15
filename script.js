@@ -1,6 +1,5 @@
 const wordElement = document.getElementById('word');
 const definitionElement = document.getElementById('definition');
-const usageElement = document.getElementById('usage');
 const nextButton = document.getElementById('nextButton');
 const body = document.body;
 const container = document.querySelector('.container');
@@ -17,7 +16,6 @@ function displayRandomWord() {
 
     wordElement.textContent = randomWord.word;
     definitionElement.textContent = randomWord.definition;
-    usageElement.textContent = `Usage: ${randomWord.usage}`;
 
     const bgColor = getRandomColor();
     const textColor = getRandomColor(); // You might want to ensure text color contrasts with background
