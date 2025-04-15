@@ -4,7 +4,7 @@ const nextButton = document.getElementById('nextButton');
 const body = document.body;
 const container = document.querySelector('.container');
 
-const colors = [
+const colorCombos = [
   { bg: "#228DC8", text: "#FC7ED7" },
   { bg: "#FBA332", text: "#FA6128" },
   { bg: "#FA6128", text: "#0B690C" },
@@ -30,10 +30,10 @@ function displayRandomWord() {
     wordElement.textContent = randomWord.word;
     definitionElement.textContent = randomWord.definition;
 
-    const bgColor = getRandomColor();
-    const textColor = getRandomColor(); // You might want to ensure text color contrasts with background
-    body.style.backgroundColor = bgColor;
-    container.style.color = textColor;
+   const color = colorCombos[Math.floor(Math.random() * colorCombos.length)];
+   document.body.style.backgroundColor = color.bg;
+   document.body.style.color = color.text;
+
 }
 
 nextButton.addEventListener('click', displayRandomWord);
