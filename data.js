@@ -374,8 +374,8 @@ const wordsData = [
     usage: ""
   },
   {
-    word: "Kyphi",
-    definition: "Incense.",
+    word: "Supine",
+    definition: "(of a person) lying face upwards.",
     usage: ""
   },
   {
