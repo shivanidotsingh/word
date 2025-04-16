@@ -149,7 +149,7 @@ const wordsData = [
   },
   {
     word: "Moot",
-    definition: "Open to question : debatable; subjected to discussion : disputed; deprived of practical significance : made abstract or purely academic.",
+    definition: "Open to question / debatable; subjected to discussion / disputed; deprived of practical significance.",
   },
   {
     word: "Plutocrat",
@@ -185,7 +185,7 @@ const wordsData = [
   },
   {
     word: "Redolence",
-    definition: "Pungent or agreeable odor.",
+    definition: "Strongly reminiscent or suggestive of; also, strongly smelling of.",
   },
   {
     word: "Chockablock",
@@ -340,7 +340,7 @@ const wordsData = [
   },
   {
     word: "Avaunt",
-    definition: "दफा हो जाओ go away.",
+    definition: "(दफा हो जाओ) go away.",
     usage: ""
   },
   {
@@ -350,7 +350,7 @@ const wordsData = [
   },
   {
     word: "Spoonerism",
-    definition: "A verbal error in which a speaker accidentally transposes the initial sounds or letters of two or more words, often to humorous effect, as in the sentence you have hissed the mystery lectures, accidentally spoken instead of the intended sentence you have missed the history lectures.",
+    definition: "A verbal error in which a speaker accidentally transposes the initial sounds or letters of two or more words, often to humorous effect.",
     usage: ""
   },
   {
@@ -430,7 +430,7 @@ const wordsData = [
   },
   {
     word: "Heuristic",
-    definition: "Rules of Thumb – a mental shortcut that helps us make decisions quickly. Enabling a person to discover or learn something for themselves. Proceeding to a solution by trial and error or by rules that are only loosely defined.",
+    definition: "Rules of Thumb – a mental shortcut that helps us make decisions quickly.",
     usage: ""
   },
   {
