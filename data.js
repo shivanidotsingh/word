@@ -69,7 +69,7 @@ const wordsData = [
   },
   {
     word: "Recalcitrance",
-    definition: "Obstinately defiant of authority or restraint.",
+    definition: "Obstinately defiant of authority or restraint. ungovernable.",
   },
   {
     word: "Clairvoyant",
