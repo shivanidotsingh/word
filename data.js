@@ -310,6 +310,11 @@ const wordsData = [
     usage: ""
   },
   {
+    word: "مطمئن",
+    definition: "quiet, secure, tranquil, satisfied.",
+    usage: ""
+  },
+  {
     word: "Imbroglio",
     definition: "An extremely confused, complicated, or embarrassing situation.",
     usage: ""
@@ -364,6 +369,11 @@ const wordsData = [
     usage: ""
   },
   {
+    word: "Dirge",
+    definition: "a mournful song, piece of music, or sound.",
+    usage: ""
+  },
+  {
     word: "वात्सल्य",
     definition: "Parental love/ affection.",
     usage: ""
@@ -381,6 +391,11 @@ const wordsData = [
   {
     word: "Splendiferous",
     definition: "Humorous way to say splendid.",
+    usage: ""
+  },
+  {
+    word: "Bardo",
+    definition: "In some schools of Buddhism, it is an intermediate, transitional, or liminal state between death and rebirth.",
     usage: ""
   },
   {
