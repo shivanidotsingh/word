@@ -17,7 +17,7 @@ const wordsData = [
   },
   {
     word: "Garrulous",
-    definition: "Excessively talkative, especially on trivial matters.",
+    definition: "(of a person) Excessively talkative, especially on trivial matters.",
   },
   {
     word: "Discombobulated",
@@ -48,6 +48,10 @@ const wordsData = [
     definition: "(of a person) reserved or uncommunicative in speech; saying little.",
   },
   {
+    word: "Oafish",
+    definition: "rough or clumsy and unintelligent.",
+  },
+  {
     word: "Empirical",
     definition: "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
   },
@@ -69,7 +73,7 @@ const wordsData = [
   },
   {
     word: "Recalcitrance",
-    definition: "Obstinately defiant of authority or restraint. ungovernable.",
+    definition: "Obstinately defiant of authority or restraint. (of a person) ungovernable.",
   },
   {
     word: "Clairvoyant",
@@ -89,15 +93,15 @@ const wordsData = [
   },
   {
     word: "Oeuvre",
-    definition: "The works of a painter, composer, or author regarded collectively.",
+    definition: "(noun) The works of a painter, composer, or author regarded collectively.",
   },
   {
     word: "Spire",
-    definition: "A tapering conical or pyramidal structure on the top of a building, typically a church tower.",
+    definition: "(noun) A tapering conical or pyramidal structure on the top of a building, typically a church tower.",
   },
   {
     word: "Altercation",
-    definition: "A noisy argument or disagreement, especially in public.",
+    definition: "(noun) A noisy argument or disagreement, especially in public.",
   },
   {
     word: "Filibuster",
@@ -117,7 +121,7 @@ const wordsData = [
   },
   {
     word: "Lackadaisical",
-    definition: "Lacking enthusiasm and determination; carelessly lazy.",
+    definition: "Lacking enthusiasm and determination; (of a person) carelessly lazy.",
   },
   {
     word: "Cheugy",
@@ -141,11 +145,11 @@ const wordsData = [
   },
   {
     word: "Suffragette",
-    definition: "A woman seeking the right to vote through organized protest.",
+    definition: "(noun) A woman seeking the right to vote through organized protest.",
   },
   {
     word: "Seance",
-    definition: "A spiritualist meeting to receive spirit communications.",
+    definition: "(noun) A spiritualist meeting to receive spirit communications.",
   },
   {
     word: "Moot",
@@ -153,7 +157,7 @@ const wordsData = [
   },
   {
     word: "Plutocrat",
-    definition: "A person whose power derives from their wealth.",
+    definition: "(noun) A person whose power derives from their wealth.",
   },
   {
     word: "Liminality",
@@ -161,7 +165,7 @@ const wordsData = [
   },
   {
     word: "Coquettish",
-    definition: "Behaving in such a way as to suggest a playful sexual attraction; flirtatious.",
+    definition: "Behaving in such a way as to suggest a playful sexual attraction; (of a person) flirtatious.",
   },
   {
     word: "Atonic",
@@ -169,7 +173,7 @@ const wordsData = [
   },
   {
     word: "Mensch",
-    definition: "A person of integrity and honor.",
+    definition: "(noun) A person of integrity and honor.",
   },
   {
     word: "Temerity",
@@ -181,7 +185,7 @@ const wordsData = [
   },
   {
     word: "Buttress",
-    definition: "A source of support.",
+    definition: "(noun) A source of support.",
   },
   {
     word: "Redolence",
@@ -209,7 +213,7 @@ const wordsData = [
   },
   {
     word: "Parable",
-    definition: "A simple story used to illustrate a moral or spiritual lesson, as told by Jesus in the Gospels.",
+    definition: "(noun) A simple story used to illustrate a moral or spiritual lesson, as told by Jesus in the Gospels.",
   },
   {
     word: "Pontificate",
