@@ -3,6 +3,10 @@ const wordsData = [
     word: "Pareidolia",
     definition: "The tendency to perceive a specific, often meaningful image in a random or ambiguous visual pattern.",
   },
+   {
+    word: "Prescient",
+    definition: "having or showing knowledge of events before they take place.",
+  },
   {
     word: "Factotum",
     definition: "An employee who does all kinds of work.",
