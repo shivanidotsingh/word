@@ -20,27 +20,16 @@ const colorCombos = [
 ];
 
 function displayRandomWord() {
-    if (displayedWords.length === wordsData.length) {
-        // All words have been displayed, reset the array to start over
-        displayedWords = [];
-    }
-
-    let randomIndex;
-    let randomWord;
-
-    do {
-        randomIndex = Math.floor(Math.random() * wordsData.length);
-        randomWord = wordsData[randomIndex];
-    } while (displayedWords.includes(randomWord));
+    const randomIndex = Math.floor(Math.random() * wordsData.length);
+    const randomWord = wordsData[randomIndex];
 
     wordElement.textContent = randomWord.word;
     definitionElement.textContent = randomWord.definition;
 
-    displayedWords.push(randomWord);
+   const color = colorCombos[Math.floor(Math.random() * colorCombos.length)];
+   document.body.style.backgroundColor = color.bg;
+   document.body.style.color = color.text;
 
-    const color = colorCombos[Math.floor(Math.random() * colorCombos.length)];
-    document.body.style.backgroundColor = color.bg;
-    document.body.style.color = color.text;
 }
 
 nextButton.addEventListener('click', displayRandomWord);
