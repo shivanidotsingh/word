@@ -60,6 +60,10 @@ const wordsData = [
     definition: "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
   },
   {
+    word: "Numinous",
+    definition: "having a strong religious or spiritual quality; indicating or suggesting the presence of a divinity.",
+  },
+  {
     word: "Stultifying",
     definition: "Tending to stifle enthusiasm, initiative, or freedom of action.",
   },
