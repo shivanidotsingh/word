@@ -361,6 +361,16 @@ const wordsData = [
     usage: ""
   },
   {
+    word: "Cryptids",
+    definition: "Animals or other beings whose present existence is disputed or unsubstantiated by mainstream science (e.g. Yeti).",
+    usage: ""
+  },
+  {
+    word: "Simulacra",
+    definition: "A representation or imitation of a person or thing. Something that replaces reality with its representation.",
+    usage: ""
+  },
+  {
     word: "Bifurcation",
     definition: "The division of something into two branches or parts.",
     usage: ""
