@@ -28,6 +28,10 @@ const wordsData = [
     definition: "Confused and disconcerted.",
   },
   {
+    word: "Aphorism",
+    definition: "a pithy observation which contains a general truth.",
+  },
+  {
     word: "Asymptote",
     definition: "A line that continually approaches a given curve but does not meet it at any finite distance.",
   },
