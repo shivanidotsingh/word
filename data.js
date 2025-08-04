@@ -264,8 +264,8 @@ const wordsData = [
     definition: "Self-pityingly or tearfully sentimental, often through drunkenness.",
   },
   {
-    word: "Vamoose",
-    definition: "Depart hurriedly.",
+    word: "Stupefy",
+    definition: "Make (someone) unable to think or feel properly. Astonish, shock or stun.",
   },
   {
     word: "Goad",
