@@ -16,6 +16,10 @@ const wordsData = [
     definition: "Using very few words and sounding rude.",
   },
   {
+    word: "Capricious",
+    definition: "changing according to no discernible rules; unpredictable.",
+  },
+  {
     word: "Apocryphal",
     definition: "(of a story or statement) of doubtful authenticity, although widely circulated as being true.",
   },
