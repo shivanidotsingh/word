@@ -8,6 +8,10 @@ const wordsData = [
     definition: "having or showing knowledge of events before they take place.",
   },
   {
+    word: "Pernicious",
+    definition: "having a harmful effect, especially in a gradual or subtle way.",
+  },
+  {
     word: "Factotum",
     definition: "An employee who does all kinds of work.",
   },
