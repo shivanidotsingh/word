@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <button class="toggle" id="toggleBtn">=</button>
+    
+    <div class="container" id="singleView">
         <h1 id="word"></h1>
         <p id="definition"></p>
-        <button id="nextButton"> another word please. </button>
+        <button id="nextButton">another word please.</button>
     </div>
+
+    <div class="grid-view" id="gridView">
+        <div class="word-grid" id="wordGrid"></div>
+    </div>
+    
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
