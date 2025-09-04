@@ -41,14 +41,14 @@ const wordElement = document.getElementById('word');
                 // Switch to single view
                 gridView.style.display = 'none';
                 singleView.style.display = 'block';
-                toggleBtn.textContent = '=';
+                toggleBtn.textContent = '+';
                 isGridView = false;
                 displayRandomWord();
             } else {
                 // Switch to grid view
                 singleView.style.display = 'none';
                 gridView.style.display = 'block';
-                toggleBtn.textContent = '≠';
+                toggleBtn.textContent = '–';
                 isGridView = true;
                 
                 // Generate grid with random colors
