@@ -72,7 +72,7 @@ const wordElement = document.getElementById('word');
             // Switch back to single view
             gridView.style.display = 'none';
             singleView.style.display = 'block';
-            toggleBtn.textContent = '=';
+            toggleBtn.textContent = '+';
             isGridView = false;
             
             // Set random color
