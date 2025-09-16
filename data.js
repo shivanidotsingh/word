@@ -32,6 +32,10 @@ const wordsData = [
     definition: "(of a person) Excessively talkative, especially on trivial matters.",
   },
   {
+    word: "Fatuous",
+    definition: "silly and pointless.",
+  },
+  {
     word: "Discombobulated",
     definition: "Confused and disconcerted.",
   },
