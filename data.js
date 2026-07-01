@@ -3,9 +3,13 @@ const wordsData = [
     word: "Pareidolia",
     definition: "The tendency to perceive a specific, often meaningful image in a random or ambiguous visual pattern.",
   },
-   {
+  {
     word: "Prescient",
     definition: "having or showing knowledge of events before they take place.",
+  },
+  {
+    word: "Verklempt",
+    definition: "to be completely overcome with emotion, to the point of being choked up, teary-eyed, or temporarily speechless.",
   },
   {
     word: "Pernicious",
